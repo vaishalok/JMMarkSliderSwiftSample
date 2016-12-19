@@ -2,24 +2,21 @@
 //  ViewController.swift
 //  JMMarkSliderSwiftSample
 //
-//  Created by Vinsol on 19/12/16.
+//  Created by Alok Vaish on 19/12/16.
 //  Copyright © 2016 vaishalok. All rights reserved.
 //
 
 import UIKit
+import JMMarkSliderSwift
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var secondSlider: JMMarkSlider!
+    @IBOutlet weak var thirdSlider: JMMarkSlider!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        secondSlider.markPositions = [10, 15, 23, 67, 71]
+        thirdSlider.markPositions = [15, 36, 77];
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
-

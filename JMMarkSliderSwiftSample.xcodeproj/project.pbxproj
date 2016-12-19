@@ -11,8 +11,8 @@
 		DFD90F531E080283008136A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD90F521E080283008136A5 /* AppDelegate.swift */; };
 		DFD90F551E080283008136A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD90F541E080283008136A5 /* ViewController.swift */; };
 		DFD90F581E080283008136A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD90F561E080283008136A5 /* Main.storyboard */; };
-		DFD90F5A1E080283008136A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD90F591E080283008136A5 /* Assets.xcassets */; };
 		DFD90F5D1E080283008136A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD90F5B1E080283008136A5 /* LaunchScreen.storyboard */; };
+		DFECD3CF1E08125500CD814C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFECD3CE1E08125500CD814C /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		DFD90F521E080283008136A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFD90F541E080283008136A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DFD90F571E080283008136A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DFD90F591E080283008136A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD90F5C1E080283008136A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFD90F5E1E080283008136A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFECD3CE1E08125500CD814C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +81,9 @@
 				DFD90F521E080283008136A5 /* AppDelegate.swift */,
 				DFD90F541E080283008136A5 /* ViewController.swift */,
 				DFD90F561E080283008136A5 /* Main.storyboard */,
-				DFD90F591E080283008136A5 /* Assets.xcassets */,
 				DFD90F5B1E080283008136A5 /* LaunchScreen.storyboard */,
 				DFD90F5E1E080283008136A5 /* Info.plist */,
+				DFECD3CE1E08125500CD814C /* Images.xcassets */,
 			);
 			path = JMMarkSliderSwiftSample;
 			sourceTree = "<group>";
@@ -151,8 +151,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFECD3CF1E08125500CD814C /* Images.xcassets in Resources */,
 				DFD90F5D1E080283008136A5 /* LaunchScreen.storyboard in Resources */,
-				DFD90F5A1E080283008136A5 /* Assets.xcassets in Resources */,
 				DFD90F581E080283008136A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,7 +336,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 494BECECF063883D4A8FCE2B /* Pods-JMMarkSliderSwiftSample.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9DT9QCBB8E;
 				INFOPLIST_FILE = JMMarkSliderSwiftSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -350,7 +350,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 416B42443575A1117613C002 /* Pods-JMMarkSliderSwiftSample.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 9DT9QCBB8E;
 				INFOPLIST_FILE = JMMarkSliderSwiftSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -379,6 +379,7 @@
 				DFD90F631E080283008136A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  JMMarkSliderSwiftSample
 //
-//  Created by Vinsol on 19/12/16.
+//  Created by Alok Vaish on 19/12/16.
 //  Copyright © 2016 vaishalok. All rights reserved.
 //
 
